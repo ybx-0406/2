@@ -1,0 +1,31 @@
+# ============================================
+# 本目录同时是 Git for Windows 的安装目录
+# 以下规则忽略 Git 自身的文件，避免误提交
+# ============================================
+
+# Git 安装目录
+/bin/
+/cmd/
+/dev/
+/etc/
+/mingw64/
+/tmp/
+/usr/
+
+# Git 根目录自带文件
+/git-bash.exe
+/git-cmd.exe
+/LICENSE.txt
+/ReleaseNotes.html
+/unins*.exe
+/unins*.dat
+/unins*.msg
+
+# 下载的安装包
+/Git-2.55.0.4-64-bit.exe
+
+# 通用临时文件
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
